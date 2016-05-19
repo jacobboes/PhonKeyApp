@@ -24,7 +24,11 @@ import android.widget.Toast;
 
 import com.movisens.smartgattlib.*;
 
+import java.io.UnsupportedEncodingException;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 public class MainActivity extends ListActivity {
@@ -207,3 +211,5 @@ public class MainActivity extends ListActivity {
         TextView deviceAddress;
     }
 }
+
+
